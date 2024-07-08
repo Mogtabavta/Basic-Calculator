@@ -53,10 +53,8 @@ if __name__ == "__main__":
             c = int(c)
             answer = Calcu(a, c)
             result = check_opration(b, answer)
-            if result == int(result):
-                print("The answer is %s" % str(result))
-            else:
-                print("The answer is %s" % str(result[0])+ " and residual is %s" % str(result[1]))
+
+            print("The answer is %s" % str(result))
 
         except TypeError:
             print("\nPleas enter a correct data for example 1 * 2 or q q q (\"for exit\") or 9 + 6\n")
