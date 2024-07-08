@@ -60,6 +60,8 @@ if __name__ == "__main__":
             print("\nPleas enter a correct data for example 1 * 2 or q q q (\"for exit\") or 9 + 6\n")
         except ValueError:
             print("\nPleas enter a correct Value for example 1 * 2 or q q q (\"for exit\") or 9 + 6\n")
+        except ZeroDivisionError:
+            print("don't type 0")
         finally:
             print("\nDebugging was successful\n")
 
